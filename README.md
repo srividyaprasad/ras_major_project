@@ -1,5 +1,4 @@
 # ras_major_project
-A Computer Vision based Voice controlled Aid for the Blind
 Goals:
 1. Achieving safe navigation
 2. Description of surrounding- objects, people
