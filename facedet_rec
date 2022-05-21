@@ -41,7 +41,7 @@ def facerec(imgpath):
     import os
     from datetime import datetime
 
-    path = r'C:\Users\srivi\OneDrive\Desktop\Extracurricular\MajorProject\Dataset'
+    path = r'MajorProject\Dataset'
     images = []
     classNames = []
     myList = os.listdir(path)
@@ -106,7 +106,7 @@ def facedet():
         if results.detections:
             #for id, detection in enumerate(results.detections):
                 #int(detection.score[0] * 100)
-            imgpath=r'C:\Users\srivi\OneDrive\Desktop\Extracurricular\MajorProject\Detected\\dynamicdetectedface.jpg'
+            imgpath=r'MajorProject\Detected\\dynamicdetectedface.jpg'
             cv2.imwrite(imgpath,img)
             facerec(imgpath) #FACE RECOGNITION TO BE ADDED
         else:
